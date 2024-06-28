@@ -18,6 +18,7 @@ Los recursos utilizados fueron:
 
 ## Proceso 
 Se intentaron un montón, unas de las cosas que mejroaron es aplciar el batchnormalization en las convolucionales y el DropOut en las densas. También, se intentaron varios métodos de DataAugmentation, pero sólo mejoró con RandomCutout (igual se dejó en código los usados). 
+También se intentaron usar varios elementos como DropBlock, pero no mejoraron. 
 ### CNN_Cifar_100_58: 
 * ImageGenerator
 * Convolucionales con batchnormalization y activación relu
