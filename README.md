@@ -38,7 +38,7 @@ También se intentaron usar varios elementos como DropBlock, pero no mejoraron.
 * Convolucionales con batchnormalization y activación swish
 * Capas densas con dropout (con MaxNorm(4)) y batchnormalization y activación swish
 
-### CNN_Cifar_100_64_GaussianNosie:
+### CNN_Cifar_100_64_GaussianNoise:
 * ImageGenerator + DataAgumentatio con RandomCutout
 * Convolucionales con batchnormalization y activación swish + GaussianNoise
 * Capas densas con dropout (con MaxNorm(4)) y batchnormalization y activación swish
